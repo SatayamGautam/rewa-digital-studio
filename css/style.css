@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+.nav a.active {
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: #f8f6f2;
+}
+
+.section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card, .package {
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.highlight {
+  border: 2px solid #caa84c;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 12px 26px;
+  background: #caa84c;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Lightbox */
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  background: #25d366;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  text-decoration: none;
+}
