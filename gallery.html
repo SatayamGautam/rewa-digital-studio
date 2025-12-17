@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Rewa Digital Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <span class="brand">Rewa Digital Studio</span>
+    <span class="tagline">We Capture Your Dreams</span>
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="packages.html">Packages</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="section">
+  <h1>Wedding Gallery</h1>
+  <div class="gallery-grid">
+    <img src="assets/images/g1.jpg" onclick="openLightbox(this.src)">
+    <img src="assets/images/g2.jpg" onclick="openLightbox(this.src)">
+    <img src="assets/images/g3.jpg" onclick="openLightbox(this.src)">
+    <img src="assets/images/g4.jpg" onclick="openLightbox(this.src)">
+    <img src="assets/images/g5.jpg" onclick="openLightbox(this.src)">
+    <img src="assets/images/g6.jpg" onclick="openLightbox(this.src)">
+  </div>
+</section>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+<footer class="footer">
+  © 2025 Rewa Digital Studio
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/917828183824" target="_blank">💬</a>
+
+</body>
+</html>
